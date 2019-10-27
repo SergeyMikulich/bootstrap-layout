@@ -1,0 +1,27 @@
+.card{
+  max-width: 220px;
+  overflow: hidden;
+  border: 8px solid #fff;
+  padding: 0;
+  box-shadow: 2px 0px 30px -13px rgba(0,0,0,1);
+  margin-right: 27px;
+}
+.card-footer{
+  display: flex;
+  margin-top:16px;
+  align-items: center;
+  justify-content:space-between;
+
+}
+.card-footer_text{
+  display: flex;
+  flex-direction: column;
+}
+.card_icon{
+
+}
+.card-footer .circles span {
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 5px 9px;
+}
